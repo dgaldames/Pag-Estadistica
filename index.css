@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+}
+
+.containerhead{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.barrazul{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: blue;
+    padding: 15px;
+}
+
+.todo{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    gap: 40px;
+}
+
+#glosario .containerglo{
+    display: grid;
+    margin-left: 200px;
+}
+
+#ramo-guias .containeramo{
+    display: grid;
+    top: auto;
+}
+
+#acciones .containeracc{
+    display: grid;
+    grid-template-columns: 2fr;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+
+.BtnArchivo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.BtnActualizar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.BtnEliminar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
